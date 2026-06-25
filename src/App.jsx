@@ -1,8 +1,10 @@
-
+import Header from "./components/Header";
 
 const App = () => {
   return (
-    <div className='font-bold text-4xl'>App</div>
+    <>
+      <Header />
+    </>
   );
 };
 
